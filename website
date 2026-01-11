@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .center ul {
+            display: flex;
+            justify-content: left;
+            gap: 10px;
+
+        }
+
+        .center ul li {
+            display: flex;
+            list-style: none;
+            padding: 20px 5px 20px 5px;
+            margin: 1px 2px;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        nav {
+            border: 1px solid black;
+            padding: 10px 10px 10px 10px;
+            margin: 5px 6px;
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(238, 229, 229);
+            border-radius: 5px;
+        }
+
+        .img img {
+            display: flex;
+            justify-content: start;
+            width: 130px;
+            height: 60px;
+            cursor: pointer;
+
+        }
+
+        ul li:hover {
+            color: #ce1c1c;
+        }
+
+        .container {
+            border: 1px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-content: center;
+            align-items: center;
+            row-gap: 10px;
+            margin: 10px;
+        }
+
+        .boxes {
+            border: 2px solid black;
+            width: 400px;
+            height: 150px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .second {
+            max-width: 72vw;
+            margin: auto;
+        }
+        .first{
+            align-items: center;
+            text-align: center;
+        }
+        footer{
+            border: 2px;
+            background-color: rgb(139, 146, 146);
+            height: 50vh;
+            display: flex;
+            /* justify-content: center;
+            text-align: left; */
+            border-radius: 6px;
+            padding: 10px 10px 10px 10px;
+            margin: 10px 20px;
+
+        }
+        .list ul li{
+            /* justify-content: left;
+            text-align: left; */
+            left: 50px;
+            list-style: none;
+            margin: 10px 20px;
+            cursor: pointer;
+
+        }
+        .bluebtn{
+            margin: 20px;
+            padding: 10px 40px;
+            background-color: #ffd741;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .lang{
+            margin: 10px;
+            font-weight: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="img">
+                <img src="UE_Site-Logo.png" alt="">
+            </div>
+            <div class="center">
+                <ul>
+                    <li>Products</li>
+                    <li>Buy</li>
+                    <li>Support</li>
+                    <li>Learn</li>
+                    <li>Company</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <span>Download <b>UltraEdit</b> for windows</span>
+            <p>Download and try UltraEdit before you buy it! This download includes the full Windows version of the
+                text editor.</p>
+                <div>
+                    <button>Download MAC Or Windows</button>
+                </div>
+        </section>
+        <section class="second">
+            <div class="container">
+                <div class="boxes">
+                    <div class="lang">English</div>
+                    <div class="lang">Includes all languages</div>
+                    <button class="bluebtn">Download</button>
+                </div>
+                <div class="boxes">
+                    <div class="lang">Deutsch</div>
+                    <div class="lang">Includes all languages</div>
+                    <button class="bluebtn">Download</button>
+                </div>
+                <div class="boxes">
+                    <div class="lang">Italiano</div>
+                    <div class="lang">Includes all languages</div>
+                    <button class="bluebtn">Download</button>
+                </div>
+                <div class="boxes">
+                    <div class="lang">Español</div>
+                    <div class="lang">Includes all languages</div>
+                    <button class="bluebtn">Download</button>
+                </div>
+                <div class="boxes">
+                    <div class="lang">français</div>
+                    <div class="lang">Includes all languages</div>
+                    <button class="bluebtn">Download</button>
+                </div>
+                <div class="boxes">
+                    <div class="lang">Português brasileiro</div>
+                    <div class="lang">Includes all languages</div>
+                    <button class="bluebtn">Download</button>
+                </div>
+                <div class="boxes">
+                    <div class="lang">日本</div>
+                    <div class="lang">Includes all languages</div>
+                    <button class="bluebtn">Download</button>
+                </div>
+                <div class="boxes">
+                    <div class="lang">한국어</div>
+                    <div class="lang">Includes all languages</div>
+                    <button class="bluebtn">Download</button>
+                </div>
+                <div class="boxes">
+                    <div class="lang">华语</div>
+                    <div class="lang">Includes all languages</div>
+                    <button class="bluebtn">Download</button>
+                </div>
+                <div class="boxes">
+                    <div class="lang">華語</div>
+                    <div class="lang">Includes all languages</div>
+                    <button class="bluebtn">Download</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="list">
+            <ul>
+                <li><b>Company</b></li>
+                <li>About Us</li>
+                <li>Contact us</li>
+
+            </ul>
+        </div>
+
+    </footer>
+</body>
+
+</html>
